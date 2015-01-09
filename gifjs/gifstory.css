@@ -1,0 +1,27 @@
+/* ---------------------------------------- */
+/* FOR GIFS JS */
+
+.gifstory_agif {
+	display:inline-block;
+	margin:2px;
+}
+.gifstory_agif .agifimg {
+	position:relative;
+}
+.gifstory_agif .agifimg .agifbubble {
+	pointer-events:none;
+	position:absolute;
+	padding:2px 5px 2px 5px;
+	border-radius: 2px;
+	background:white;
+	z-index:9998;
+	text-align:center;
+	display: inline-block;
+	font-size:11px;
+}
+.gifstory_agif .agiflegend {
+	padding:4px;
+	background:#ECECEC;
+	text-align:center;
+	font-size:11px;
+}

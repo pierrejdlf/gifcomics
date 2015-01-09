@@ -1,0 +1,38 @@
+/* ---------------------------------------- */
+/* FOR GIFS JS */
+
+.giffullscreen_wrapper {
+	width:100%;
+	height:20px;
+	/*margin:3px;*/
+	overflow:hidden;
+}
+.giffullscreen_container {
+	position:relative;
+	background:red;
+}
+
+.giffullscreen_agif img {
+	width:100%;
+	position:absolute;
+	left:0;
+	top:0;
+}
+.giffullscreen_agif div {
+	/*pointer-events:none;*/
+	position:absolute;
+	padding:2px;
+	border: transparent 2px solid;
+	border-radius: 5px;
+	background:black;
+	text-align:center;
+	color:white;
+	/*font-family: "Verdana";*/
+	font-size:12px;
+	/*font-weight:900;*/
+}
+.giffullscreen_agif div:hover {
+	cursor: pointer;
+	border: red 2px solid;
+	background: grey;
+}

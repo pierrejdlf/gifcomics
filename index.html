@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>coco</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script type="text/javascript" src="lib/d3.v2.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="gifjs/gifstory.css"/>
+    <script type="text/javascript" src="gifjs/gifstory.js"></script>
+
+  </head>
+
+  <body>
+    
+    <div id="comiccontainer"></div>
+
+  </body>
+
+  <script type="text/javascript">
+    
+    function getURLParameter(name) {
+      return decodeURIComponent(
+        (new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null;}
+    
+    var whichone = getURLParameter('p') || 0;
+
+    build_gifstory("#comiccontainer","data/"+whichone);
+  
+  </script>
+</html>
+
+
+
+
+
