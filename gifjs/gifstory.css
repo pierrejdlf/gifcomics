@@ -1,6 +1,15 @@
 /* ---------------------------------------- */
 /* FOR GIFS JS */
 
+html, body {
+	margin:0;
+	padding:0;
+}
+body {
+	background: black;
+	margin:50px 0px;
+}
+
 .gifstory_agif {
 	display:inline-block;
 	margin:2px;
@@ -17,11 +26,11 @@
 	z-index:9998;
 	text-align:center;
 	display: inline-block;
-	font-size:11px;
+	font-size:12px;
 }
 .gifstory_agif .agiflegend {
-	padding:4px;
-	background:#ECECEC;
+	padding:7px;
+	color: white;
 	text-align:center;
-	font-size:11px;
+	font-size:17px;
 }
