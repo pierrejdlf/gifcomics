@@ -16,6 +16,7 @@ body {
 }
 .gifstory_agif .agifimg {
 	position:relative;
+	cursor: pointer;
 }
 .gifstory_agif .agifimg .agifbubble {
 	pointer-events:none;
